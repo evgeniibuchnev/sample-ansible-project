@@ -1,0 +1,6 @@
+---
+- name: Print custom group and host variable
+  ansible.builtin.debug:
+    msg:
+      - "Group variable: {{ sample_group_var }}"
+      - "Host variable: {{ sample_host_var }}"

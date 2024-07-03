@@ -1,0 +1,5 @@
+---
+- name: Testing variables in role1
+  hosts: all
+  roles:
+    - role1
